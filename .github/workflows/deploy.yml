@@ -15,7 +15,7 @@ jobs:
         env:
           email: 'leticianfaria@hotmail.com'
           username: 'letfr'
-          access_token: ${{ secrets.githubToken' }}
+          access_token: ${{ secrets.githubToken }}
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
