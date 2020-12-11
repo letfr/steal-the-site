@@ -44,6 +44,14 @@
           <h2>#STEALTHE<b>CV</b></h2>
           <a href=""><img src="@/assets/cv.jpeg" alt=""></a>
         </div>
+        <div class="newsletter">
+          <p><span class="far fa-envelope"></span> ASSINE NOSSA NEWSLETTER</p>
+          <input type="text" placeholder="informe seu email...">
+        </div>
+        <div>
+          <h2><b>@</b>LETFR</h2>
+          <a href=""><img src="@/assets/projetos.jpeg" alt=""></a>
+        </div>
       </aside>
     </main>
   </section>
@@ -106,8 +114,8 @@ header {
 
 aside {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   padding: 20px 0;
 
   h2 {
@@ -118,6 +126,26 @@ aside {
     margin: 10px 0;
     width: 250px;
     height: 250px;
+  }
+
+  .newsletter {
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+    width: 250px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 15px;
+
+    span {
+      margin-right: 5px;
+    }
+
+    input {
+      width: 100%;
+      margin-top: 10px;
+      padding: 5px;
+    }
   }
 }
 
