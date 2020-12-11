@@ -42,7 +42,9 @@
       <aside>
         <div>
           <h2>#STEALTHE<b>CV</b></h2>
-          <a href=""><img src="@/assets/cv.jpeg" alt=""></a>
+          <a href="https://letfr.github.io/portfolio/static/media/cv-pt.99f7453e.pdf">
+            <img src="@/assets/cv.jpeg" alt="">
+          </a>
         </div>
         <div class="newsletter">
           <p><span class="far fa-envelope"></span> ASSINE NOSSA NEWSLETTER</p>
@@ -50,7 +52,7 @@
         </div>
         <div>
           <h2><b>@</b>LETFR</h2>
-          <a href=""><img src="@/assets/projetos.jpeg" alt=""></a>
+          <a href="https://letfr.github.io/portfolio/"><img src="@/assets/projetos.jpeg" alt=""></a>
         </div>
       </aside>
     </main>
