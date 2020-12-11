@@ -43,7 +43,7 @@
         <div>
           <h2>#STEALTHE<b>CV</b></h2>
           <a href="https://letfr.github.io/portfolio/static/media/cv-pt.99f7453e.pdf">
-            <img src="@/assets/cv.jpeg" alt="">
+            <img src="@/assets/cv.jpeg" alt="curriculo">
           </a>
         </div>
         <div class="newsletter">
@@ -52,7 +52,9 @@
         </div>
         <div>
           <h2><b>@</b>LETFR</h2>
-          <a href="https://letfr.github.io/portfolio/"><img src="@/assets/projetos.jpeg" alt=""></a>
+          <a href="https://letfr.github.io/portfolio/">
+            <img src="@/assets/projetos.jpeg" alt="github">
+          </a>
         </div>
       </aside>
     </main>
