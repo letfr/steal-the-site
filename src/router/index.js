@@ -10,21 +10,6 @@ const routes = [
     name: 'Home',
     component: Home,
   },
-  // {
-  //   path: '/looks',
-  //   name: 'Looks',
-  //   component: Looks,
-  // },
-  // {
-  //   path: '/tendencias',
-  //   name: 'Trends',
-  //   component: Trends,
-  // },
-  // {
-  //   path: '/sobre',
-  //   name: 'About',
-  //   component: About,
-  // },
 ];
 
 const router = new VueRouter({
