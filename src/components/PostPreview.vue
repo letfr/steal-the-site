@@ -26,6 +26,9 @@ export default {
     subtitle: {
       type: String,
     },
+    alt: {
+      type: String,
+    },
   },
 };
 </script>
