@@ -2,7 +2,7 @@
 
 This projet is inspired by the website [Steal the look](https://stealthelook.com.br) for study purposes.
 It consists of a static page containing a layout similar to the Steal the look, with images and personal data.
-
+You can access the website on the gh-pages **[here 🚀](https://letfr.github.io/steal-the-site/)**
 ## Technologies
 - Vue.js
 - SCSS
