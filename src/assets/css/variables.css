@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #5b2bcc;
+    --secondary-color: #ff00dd;
+    --white: #ffffff;
+    --black: #000;
+
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --span-font: 'Vollkorn', serif;
+}
+  
