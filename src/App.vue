@@ -37,4 +37,10 @@ footer {
   background-color: #000;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 12px;
+  }
+}
 </style>

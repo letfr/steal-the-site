@@ -3,15 +3,15 @@
     <header>
       <h1>STEAL THE <b>SITE</b></h1>
       <nav>
-        <li><a href="/">LOOKS</a></li>
-        <li><a href="/">TENDÊNCIAS</a></li>
-        <li><a href="/">BELEZA</a></li>
-        <li><a href="/">ASTROLOGIA</a></li>
-        <li><a href="/">RECEITAS</a></li>
-        <li><a href="/">COMPORTAMENTO</a></li>
-        <li><a href="/">WELLNESS</a></li>
-        <li><a href="/">DECOR</a></li>
-        <li><a href="/">CARREIRAS</a></li>
+        <li><a href="">LOOKS</a></li>
+        <li><a href="">TENDÊNCIAS</a></li>
+        <li><a href="">BELEZA</a></li>
+        <li><a href="">ASTROLOGIA</a></li>
+        <li><a href="">RECEITAS</a></li>
+        <li><a href="">COMPORTAMENTO</a></li>
+        <li><a href="">WELLNESS</a></li>
+        <li><a href="">DECOR</a></li>
+        <li><a href="">CARREIRAS</a></li>
       </nav>
     </header>
     <main class="content">
@@ -164,4 +164,40 @@ aside {
     color: var(--black);
   }
 }
+
+@media (max-width: 600px) {
+  section.home {
+    padding: 0 10px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .newsletter {
+      display: none;
+    }
+
+    aside {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      img {
+        width: 160px;
+        height: 160px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  header {
+    display: none;
+  }
+};
 </style>

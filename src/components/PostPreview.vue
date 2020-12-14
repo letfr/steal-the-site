@@ -70,4 +70,30 @@ article {
     }
   }
 }
+
+@media (max-width: 600px) {
+  article {
+    padding: 15px 0;
+
+    img {
+      width: 180px;
+      height: 180px;
+    }
+
+    .description {
+      h2 {
+        font-size: 16px;
+      }
+
+      h3 {
+        display: none;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 10px;
+      }
+    }
+  }
+};
 </style>
